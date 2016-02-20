@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	<bean id= "fishListService" class ="fishing.services.FishListService" />
+	<bean id= "catersListService" class ="fishing.services.CatersListService" />
+	<bean id= "tripsService" class ="fishing.services.TripsService" />
+	<bean id= "tripsViewModel" class = "fishing.actions.viewModels.TripsViewModel" scope="prototype" />
+	<bean id= "catchesService" class ="fishing.services.CatchesService" />
+	<bean id= "catchesViewModel" class = "fishing.actions.viewModels.CatchesViewModel" scope="prototype" /> 
+	<bean id= "fish" class = "fishing.dao.Fish" scope="prototype" />
+</beans>

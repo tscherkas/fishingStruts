@@ -1,0 +1,44 @@
+<form action="FishUpdate" class="fishForm">
+	<input type="hidden" id="input_id" name="model.id"/>
+	<table>
+		<tbody>
+			<tr>
+				<td><label>Name*</label></td>
+				<td><input type="text" id="input_name" name="model.name"
+						class="txtfield" /></td>
+			</tr>
+			<tr>
+				<td><label>Price</label></td>
+				<td><input type="text" id="input_price" name="model.price"
+						class="txtfield" /></td>
+			</tr>
+			<tr>
+				<td><label>Description</label></td>
+				<td><textarea id="input_description" name="model.description"
+						class="txtarea"></textarea></td>
+			</tr>
+			<tr>
+				<td><label>Image URL</label></td>
+				<td><input type="text" id="input_image" name="model.image"
+						class="txtfield" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="last"><input type="submit"
+					value="Submit" class="button"> <span>* = Required
+						Field</span></td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+<form action="FishDelete" class="fishForm">
+	<input type="hidden" id="delete_id" name="id"/>
+	<table>
+		<tbody>
+			<tr>
+				<td width="395px" class="last"><input type="submit"
+					value="Delete" class="button"></td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+

@@ -1,0 +1,6 @@
+<sitemesh>
+<!--    <mapping path="/" decorator="/decorators/no-top-navigation-decorator.jsp" />  -->
+<!--   <mapping path="/index" decorator="/decorators/no-top-navigation-decorator.jsp"/> -->
+<mapping path="**" decorator="/decorators/default-decorator.jsp"/>
+
+</sitemesh>

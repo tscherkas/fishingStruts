@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.jboss.tools.openshift.ApplicationId=5607b51f2d52718c1900004b
+org.jboss.tools.openshift.ApplicationName=fishing
+org.jboss.tools.openshift.Connection=https\://tscherkas.it%40gmail.com@openshift.redhat.com
+org.jboss.tools.openshift.DeployFolder=webapps
+org.jboss.tools.openshift.Domain=tscherkas
+org.jboss.tools.openshift.RemoteName=origin
